@@ -239,7 +239,7 @@ function keyPressed(){
 }
 
 async function getBackgroundImg(){
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  var response = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata");
   console.log(response);
   var responseData = await response.json();
   console.log(responseData);
